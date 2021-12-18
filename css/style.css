@@ -1,0 +1,12 @@
+header {
+  display: flex;
+  display: -webkit-flex;
+  list-style: none;
+}
+.logo {
+  width: 150px;
+  height: 30px;
+}
+.header-nav {
+  display: flex;
+}

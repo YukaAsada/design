@@ -1,12 +1,23 @@
-header {
+.header {
   display: flex;
-  display: -webkit-flex;
-  list-style: none;
+  align-items: center;
+  width:100%;
+  height:50;
+
 }
 .logo {
   width: 150px;
   height: 30px;
 }
-.header-nav {
-  display: flex;
+.header-nav-list {
+  display: flex; 
+  width:100;
+  float:right;
+  padding: 50 50px;
+}
+
+li {
+  list-style: none;
+  display:flex;
+  float:right;
 }

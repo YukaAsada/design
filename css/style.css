@@ -1,19 +1,29 @@
-.header {
+.flex-item {
   display: flex;
-  align-items: center;
-  width: 100%;
   justify-content: space-between;
-  padding: 0 30px;
+}
+.font-item {
+  font-family: "Dancing Script", cursive;
+  font-family: "Gorditas", cursive;
+  font-family: "Noto Serif JP", serif;
+}
+
+.header {
+  /*width: 100%;*/
+  height: 70px;
+  /*padding: 0 30px;*/
+  line-height: 70px;
 }
 .logo {
-  width: 150px;
-  height: 30px;
+  width: 50px;
+  height: 20px;
+}
+.header-nav {
+  margin-right: 40px;
 }
 .header-nav-list {
-  display: flex;
   float: right;
   list-style: none;
-  justify-content: space-between;
 }
 
 .firstview-content {
@@ -49,7 +59,6 @@ div.firstview-secondcontent {
 }
 .information-nav {
   padding: 15px;
-  display: inline-block;
 }
 .date {
   padding: 10px;
@@ -70,11 +79,116 @@ div.firstview-secondcontent {
   border-width: 1px 0 0 0;
   border-style: solid;
 }
+
 .about-img {
-  width: 400px;
+  width: 30%;
   height: 300px;
+  position: absolute;
+  left: 60%;
 }
 .about-nav {
-  display: flex;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(240, 235, 235);
+}
+.first-content {
+  width: 100%;
+}
+
+.about-title {
+  width: 100%;
   text-align: center;
+}
+h2 {
+  width: 100%;
+  text-align: center;
+}
+.display-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 200px;
+  background-color: rgb(219, 219, 219);
+}
+.card {
+  border: 1px solid #e9eaea;
+  border-radius: 10px;
+  width: 30%;
+  height: 400px;
+}
+
+.card-img {
+  width: 100%;
+}
+.tag-line {
+  display: flex;
+}
+.company-information {
+  width: 100%;
+  margin: 50px 100px;
+}
+
+table {
+  width: 60%;
+  border-collapse: collapse;
+  border-color: darkgray;
+}
+
+table th,
+table td {
+  border: 1px solid #ccc;
+  padding: 20px;
+}
+
+table th {
+  background-color: rgb(241, 241, 241);
+}
+
+.img-area {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.recruit {
+  position: relative;
+}
+.recruit-information {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+}
+
+.interview {
+  position: relative;
+}
+.interview-content {
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+}
+.portal-detail {
+  text-align: center;
+}
+
+.hr {
+  flex-direction: column;
+}
+.portal {
+  text-align: center;
+  display: inline-block;
+  margin: 0 45%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 30px;
+  background-color: rgb(177, 12, 136);
+  color: aliceblue;
+  box-shadow: 5px 5px 3px #000;
+  background: linear-gradient(90deg, rgb(252, 57, 203), rgb(172, 62, 144));
 }

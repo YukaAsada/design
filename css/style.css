@@ -1,4 +1,5 @@
-.flex-item {
+/*共通*/
+.interview {
   display: flex;
   justify-content: space-between;
 }
@@ -7,6 +8,10 @@
   font-family: "Gorditas", cursive;
   font-family: "Noto Serif JP", serif;
 }
+* {
+  outline: 1px solid red !important;
+}
+/*ヘッダー*/
 
 .header {
   /*width: 100%;*/
@@ -14,8 +19,8 @@
   /*padding: 0 30px;*/
   line-height: 70px;
 }
-.logo {
-  width: 50px;
+.logo-item {
+  width: 90px;
   height: 20px;
 }
 .header-nav {
@@ -24,7 +29,13 @@
 .header-nav-list {
   float: right;
   list-style: none;
+  display: flex;
 }
+.li {
+  padding-left: 30px;
+}
+
+/*初期画面*/
 
 .firstview-content {
   position: absolute;
@@ -33,33 +44,35 @@
 }
 .firstview-img {
   position: relative;
-  left: 40%;
+  left: 30%;
 }
 div.firstview-secondcontent {
   position: absolute;
   top: 40%;
   left: 20%;
 }
+
+/*新着情報*/
 .news {
-  position: absolute;
-  left: 50%;
+  width: 100%;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 30px;
 }
 .new-information {
-  position: absolute;
-  top: 700px;
-  left: 50%;
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
 }
 .information {
-  display: flex;
-  display: inline-block;
   width: 100%;
-  margin: 50px 450px;
-  padding: 20px;
+  margin: 50px;
   flex-direction: column;
 }
-.information-nav {
+/*.information-nav {
   padding: 15px;
-}
+}*/
+
 .date {
   padding: 10px;
 }

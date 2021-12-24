@@ -26,21 +26,22 @@
   height: 20px;
 }
 .header-nav {
-  margin-right: 40px;
+  margin-right: 10px;
 }
 .header-nav-list {
   float: right;
   list-style: none;
   display: flex;
 }
-.li {
-  padding: 0 30px;
+.header-nav-list li {
+  padding: 0 0 0 30px;
 }
 
 /*初期画面*/
 .view {
   width: 100%;
   position: relative;
+  text-align: right;
 }
 .firstview-content {
   position: absolute;
@@ -48,9 +49,9 @@
   left: 20%;
 }
 
-.firstview-img {
+/*.firstview-img {
   text-align: right;
-}
+}*/
 
 div.firstview-secondcontent {
   position: absolute;
@@ -59,23 +60,29 @@ div.firstview-secondcontent {
 }
 
 /*新着情報*/
+.news-block {
+  text-align: center;
+}
+.news-nav {
+  text-align: center;
+}
 .news {
   width: 100%;
   text-align: center;
   padding-top: 40px;
   padding-bottom: 30px;
 }
-.new-information {
+/*.new-information {
   width: 100%;
   text-align: center;
   padding-top: 10px;
   margin-bottom: 30px;
-}
-.information {
+}*/
+
+/*.information {
   text-align: center;
   width: 100%;
-  flex-direction: column;
-}
+}*/
 .information-nav {
   display: flex;
   text-align: center;

@@ -60,17 +60,17 @@ div.firstview-secondcontent {
 }
 
 /*新着情報*/
-.news-block {
+/*.news-block {
   text-align: center;
-}
-.news-nav {
+}*/
+
+/*.news-nav {
   text-align: center;
-}
+}*/
 .news {
   width: 100%;
   text-align: center;
-  padding-top: 40px;
-  padding-bottom: 30px;
+  padding-top: 40 auto;
 }
 /*.new-information {
   width: 100%;

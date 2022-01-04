@@ -11,6 +11,7 @@
 * {
   outline: 1px solid red !important;
 }
+
 /*ヘッダー*/
 
 .header {
@@ -43,17 +44,15 @@
   position: relative;
   text-align: right;
 }
-.firstview-content {
-  position: absolute;
-  top: 30%;
-  left: 20%;
+.first-content {
+  width: 100%;
 }
 
 /*.firstview-img {
   text-align: right;
 }*/
 
-div.firstview-secondcontent {
+div.firstview-content {
   position: absolute;
   top: 40%;
   left: 20%;
@@ -70,7 +69,7 @@ div.firstview-secondcontent {
 .news {
   width: 100%;
   text-align: center;
-  padding-top: 40 auto;
+  margin: 100px auto;
 }
 /*.new-information {
   width: 100%;
@@ -79,19 +78,27 @@ div.firstview-secondcontent {
   margin-bottom: 30px;
 }*/
 
-/*.information {
+.news-title {
+  padding: 20px auto;
+}
+.information {
   text-align: center;
   width: 100%;
-}*/
+}
 .information-nav {
   display: flex;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-/*.date {
-
-}*/
-
+.date {
+  text-align: center;
+  margin-right: 20px;
+}
+.information-h2 {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
 .news-btn {
   width: 10%;
   height: 10px;
@@ -99,6 +106,7 @@ div.firstview-secondcontent {
   background-color: rgb(177, 12, 136);
   color: aliceblue;
   border-radius: 30px;
+  text-align: center;
 }
 .service-content {
   padding: 10px;
@@ -111,31 +119,81 @@ div.firstview-secondcontent {
 .about-img {
   width: 30%;
   height: 300px;
-  position: absolute;
-  left: 60%;
+  margin-top: 80px;
+  margin-left: 50%;
+  margin-bottom: 20px;
 }
 .about-nav {
   width: 100%;
   height: 500px;
   background-color: rgb(240, 235, 235);
+  display: relative;
 }
-.first-content {
-  width: 100%;
+.about {
+  position: relative;
 }
 
-.about-title {
+.first-content {
+  /*display: inline-block;*/
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+.second-content {
+  display: inline-block;
+  position: absolute;
+  top: 200px;
+  left: 40px;
+}
+
+/*.about-region {
+  width: 100%;
+  height: 40%;
+}*/
+
+.about-content {
+  display: inline-block;
+  display: absolute;
+  top: 100px;
+  left: 80px;
+}
+
+.about-first-content {
+  width: 100%;
+  height: 600px;
+  position: flex;
+}
+
+/*.first-content {
+  width: 100%;
+  position: absolute;
+  top: 150px;
+  left: 20px;
+}*/
+
+/*.about-title {
+  width: 100%;
+  text-align: center;
+}*/
+/* h1 {
   width: 100%;
   text-align: center;
 }
 h2 {
   width: 100%;
   text-align: center;
-}
+}*/
 .display-wrapper {
+  display: inline-block;
   display: flex;
   justify-content: space-between;
   margin: 0 200px;
-  background-color: rgb(219, 219, 219);
+  background-color: #ffffff;
+  /*background-color: rgb(219, 219, 219);*/
+}
+.blog {
+  background-color: #e4e0e0;
 }
 .card {
   border: 1px solid #e9eaea;
@@ -146,6 +204,7 @@ h2 {
 
 .card-img {
   width: 100%;
+  background-color: #e9eaea;
 }
 .tag-line {
   display: flex;
@@ -153,6 +212,10 @@ h2 {
 .company-information {
   width: 100%;
   margin: 50px 100px;
+}
+/*サービス*/
+.service {
+margin 0;
 }
 
 table {

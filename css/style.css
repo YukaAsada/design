@@ -129,9 +129,9 @@ div.firstview-content {
   background-color: rgb(240, 235, 235);
   display: relative;
 }
-.about {
+/*.about {
   position: relative;
-}
+}*/
 
 .first-content {
   /*display: inline-block;*/
@@ -140,29 +140,29 @@ div.firstview-content {
   text-align: center;
 }
 
-.second-content {
+/*.second-content {
   display: inline-block;
   position: absolute;
   top: 200px;
   left: 40px;
-}
-
-/*.about-region {
-  width: 100%;
-  height: 40%;
 }*/
 
-.about-content {
+.about-region {
+  flex-direction: column;
+}
+
+/*
   display: inline-block;
-  display: absolute;
   top: 100px;
   left: 80px;
-}
+}*/
 
 .about-first-content {
   width: 100%;
   height: 600px;
-  position: flex;
+}
+.about-rigion {
+  display: flex;
 }
 
 /*.first-content {

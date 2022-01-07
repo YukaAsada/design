@@ -37,16 +37,16 @@
   <main>
     <div class="view">
       <div class="view-img">
-        <img src="img/firstview.jpg" class="firstview-img">
+        <img src="img/firstview.jpg">
       </div>
-
-      <div class="firstview-content">
-        <h1 class="font-item">commit to the growth for everyone</h1>
-        <p>全ての人の成長にコミットする</p>
-        <p>Educational Technology Company estra inc since 2019</p>
-      </div>
-
     </div>
+    <div class="firstview-content">
+      <h1 class="font-item">commit to the growth for everyone</h1>
+      <p>全ての人の成長にコミットする</p>
+      <p>Educational Technology Company estra inc since 2019</p>
+    </div>
+
+
 
     <!--新着情報-->
     <!--<div class="news-block">-->
@@ -97,40 +97,64 @@
     <!--About-->
     <!--<div class="about-nav">-->
     <div class="about">
-      <div class="first-content">
-        <h1>About</h1>
-        <h2>Technology Coaching</h2>
-      </div>
-      <!--<div class="about-region">-->
-      <div class="about-rigion">
-        <div class="about-first-content">
-          <div class="about-content">
-            <p>株式会社estraはデジタル化が遅れている教育業界に<br>
-              最新のテクノロジーを導入することによって教育の<br>DXを実現します。</p>
+      <div class="container">
+        <p class="about-sub-title">About</p>
+        <h2 class="about-title">Technology × Coaching</h2>
+        <div class="flex-item about-item">
+          <p class="about-item-text">
+            <span>
+              株式会社estraはデジタル化が遅れている教育業界に
+              最新のテクノロジーを導入することによって教育のDXを実現します。
+            </span>
+            独自のオペレーションとコーチングを融合した新しい教育の仕組みにより、一人ひとりに合わせた最適な教育を提供します。
+          </p>
+          <div class="about-item-img">
+            <img src="img/about.jpg">
           </div>
-          <!--</div>
-      <div class="Aboutsecond">-->
-          <div class="second-content">
-            <p>独自のオペレーションとコーチングを融合した新しい<br>教育の仕組みにより、一人ひとりに合わせた最適な教<br>育を提供します。</p>
-          </div>
-
-          <img src="img/about.jpg" class="about-img">
         </div>
+      </div>
 
+    </div>
+
+    <!--</div>-->
+    <!--サービス-->
+    <div class="service-main">
+      <p>Service</p>
+      <h2>サービス内容</h2>
+      <div class="service-block">
+        <div class="service-item-first">
+          <img src="img/service__first.svg">
+          <h3 class="service-item-title">教育事業</h3>
+          <p>
+            サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。
+          </p>
+        </div>
+        <div class="service-item-second service-right">
+          <img src="img/service__first.svg">
+          <div class="service-item-content">
+            <h3 class="service-item-title-left">教育事業</h3>
+            <p>
+              サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。
+            </p>
+          </div>
+        </div>
+        <div class="service-item-third service-right">
+          <img src="img/service__first.svg">
+          <div class="service-item-content">
+            <h3 class="service-item-title-left">教育事業</h3>
+            <p>
+              サンプルテキストがここに入ります。サンプルテキストがここに入ります。サンプルテキストがここに入ります。
+            </p>
+          </div>
+        </div>
       </div>
     </div>
-    <!--</div>-->
-    <div class="service">
-      <a>Service</a>
-    </div>
-    <div>
-      <h2>サービス内容</h2>
-    </div>
+    <!--ブログ-->
     <div class="blog">
       <div class="blog-detail">
         <a>Blog</a>
       </div>
-      <div>
+      <div class="blog-content">
         <h2>ブログ</h2>
       </div>
       <div class="display-wrapper">
@@ -140,7 +164,7 @@
             プログラミング学習の勉強方法を<br>特集。挫折しない方法とは？
           </div>
           <div class="tag-line">
-            <a class="tag"> 2021/01/01</a>
+            <a class="tag-date"> 2021/01/01</a>
             <a class="tag">#COACHTECH</a>
           </div>
         </section>
@@ -150,7 +174,7 @@
             プログラミング学習の勉強方法を<br>特集。挫折しない方法とは？
           </div>
           <div class="tag-line">
-            <a class="tag"> 2021/01/01</a>
+            <a class="tag-date"> 2021/01/01</a>
             <a class="tag">#COACHTECH</a>
           </div>
         </section>
@@ -160,10 +184,13 @@
             プログラミング学習の勉強方法を<br>特集。挫折しない方法とは？
           </div>
           <div class="tag-line">
-            <a class="tag"> 2021/01/01</a>
+            <a class="tag-date"> 2021/01/01</a>
             <a class="tag">#COACHTECH</a>
           </div>
         </section>
+      </div>
+      <div class="page">
+        <a class="page-content">一覧ページへ</a>
       </div>
     </div>
     <div>
@@ -172,33 +199,35 @@
     <!--会社概要-->
     <div class="company-information">
       <h2>会社概要</h2>
-      <table>
-        <tr>
-          <th>会社名</th>
-          <td>株式会社estra</td>
-        </tr>
-        <tr>
-          <th>代表者名</th>
-          <td>福場凛太郎</td>
-        </tr>
-        <tr>
-          <th>本社所在地</th>
-          <td>東京都渋谷区1-1-1</td>
-        </tr>
-        <tr>
-          <th>従業員数</th>
-          <td>100名</td>
-        </tr>
-        <tr>
-          <th>電話番号</th>
-          <td>0120-00-0000</td>
-        </tr>
-        <tr>
-          <th>資本金</th>
-          <td>¥10,000,000</td>
-        </tr>
+      <dev class="company-table">
+        <table>
+          <tr>
+            <th>会社名</th>
+            <td>株式会社estra</td>
+          </tr>
+          <tr>
+            <th>代表者名</th>
+            <td>福場凛太郎</td>
+          </tr>
+          <tr>
+            <th>本社所在地</th>
+            <td>東京都渋谷区1-1-1</td>
+          </tr>
+          <tr>
+            <th>従業員数</th>
+            <td>100名</td>
+          </tr>
+          <tr>
+            <th>電話番号</th>
+            <td>0120-00-0000</td>
+          </tr>
+          <tr>
+            <th>資本金</th>
+            <td>¥10,000,000</td>
+          </tr>
 
-      </table>
+        </table>
+      </dev>
     </div>
     <!--会社概要-->
     <div class="img-area">
@@ -206,14 +235,14 @@
         <img src="img/recruit.png">
         <div class="recruit-information">採用情報</div>
       </div>
-      <div class="interview">
+      <div class="flex-item">
         <img src="img/interview.png">
         <div class="interview-content">社員インタビュー</div>
       </div>
     </div>
     <div class="portal-detail">
-      <div classa="portal-area">株式会社estraへのお問い合わせはこちらから</div>
-      <hr>
+      <h2 class="portal-area">
+        株式会社estraへのお問い合わせはこちらから</h2>
       <div class="portal">お問い合わせ</div>
     </div>
 

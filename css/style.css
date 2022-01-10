@@ -46,15 +46,17 @@ img {
 /*初期画面*/
 .view {
   width: 100%;
-  position: relative;
-  text-align: right;
-  position: relative;
 }
 
 .view-img {
   display: absolute;
-  left: 100px;
+  left: 300px;
+  width: 900px;
+  height: 800px;
+  text-align: right;
+  margin: 0px auto;
 }
+
 .first-content {
   width: 100%;
 }
@@ -391,9 +393,10 @@ h2 {
 }
 
 .table {
-  width: 300px;
+  width: 800px;
   border-collapse: collapse;
   border-color: darkgray;
+  margin: 0 auto;
 }
 
 table th,

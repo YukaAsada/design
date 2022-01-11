@@ -48,13 +48,9 @@ img {
   width: 100%;
 }
 
-.view-img {
-  display: absolute;
-  left: 300px;
-  width: 900px;
-  height: 800px;
-  text-align: right;
-  margin: 0px auto;
+body {
+  background-image: url("../img/firstview.jpg");
+  background: right;
 }
 
 .first-content {
@@ -385,15 +381,15 @@ h2 {
   width: 70%;
 }
 .company-information {
-  width: 100%;
+  width: 960px;
   margin: 50px 100px;
+  margin: 0 auto;
 }
 .company-information h2 {
-  margin: o auto;
+  margin: 0 auto;
 }
 
 .table {
-  width: 800px;
   border-collapse: collapse;
   border-color: darkgray;
   margin: 0 auto;
@@ -402,7 +398,7 @@ h2 {
 table th,
 table td {
   border: 1px solid #ccc;
-  padding: 20px;
+  padding: 0 auto;
 }
 
 table th {

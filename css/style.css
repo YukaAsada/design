@@ -53,6 +53,11 @@ body {
   background: right;
 }
 
+.view-img {
+  width: 700px;
+  text-align: right;
+}
+
 .first-content {
   width: 100%;
 }
@@ -378,12 +383,15 @@ h2 {
 
 /*会社概要*/
 .company-table {
-  width: 70%;
+  margin: 0 auto;
+  width: 800px;
+  height: 700px;
 }
 .company-information {
   width: 960px;
   margin: 50px 100px;
-  margin: 0 auto;
+  margin: 50 auto;
+  align-items: center;
 }
 .company-information h2 {
   margin: 0 auto;
@@ -392,13 +400,12 @@ h2 {
 .table {
   border-collapse: collapse;
   border-color: darkgray;
-  margin: 0 auto;
+  width: 70%;
 }
 
 table th,
 table td {
   border: 1px solid #ccc;
-  padding: 0 auto;
 }
 
 table th {
@@ -453,6 +460,7 @@ table th {
   color: aliceblue;
   box-shadow: 5px 5px 3px #000;
   background: linear-gradient(90deg, rgb(252, 57, 203), rgb(172, 62, 144));
+  margin: 40px;
 }
 
 .portal-area {
@@ -470,4 +478,14 @@ table th {
   width: 2px;
   content: "";
   background: #b31566;
+}
+
+/*.copyright {
+  text-align: center;
+}*/
+
+.footer-area {
+  background-color: rgb(238, 237, 237);
+  text-align: center;
+  padding: 60px;
 }

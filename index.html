@@ -37,13 +37,11 @@
   <main>
     <div class="main-view">
       <div class="view">
-        <div class="view-img">
-          <img src="img/firstview.jpg">
-        </div>
+        <img src="img/firstview.jpg" class="view-img">
       </div>
       <div class="firstview-content">
-        <h1 class="font-item">commit to the growth for everyone</h1>
-        <p>全ての人の成長にコミットする</p>
+        <h1 class="font-item">commit to the <span style=color:aqua>growth</span><br>for everyone</h1>
+        <p class="view-font">全ての人の<span style=color:aqua>成長</span>にコミットする</p>
         <p>Educational Technology Company estra inc since 2019</p>
       </div>
     </div>
@@ -68,7 +66,7 @@
           <hr class="border">
         </div>
         <div class="information-nav">
-          <p cplass="date">2021/01/01</p>
+          <p class="date">2021/01/01</p>
           <p class="news-btn">ニュース</p>
           <p class="service-content">COACHTECHのサービスが開始されました。</p>
           <hr class="border">
@@ -152,58 +150,56 @@
     </div>
     <!--ブログ-->
     <div class="blog">
-      <div class="blog-detail">
-        <a class="font-blog">Blog</a>
-      </div>
-      <div class="blog-content">
-        <h2>ブログ</h2>
-      </div>
-      <div class="display-wrapper">
-        <section class="card">
-          <img src="img/blog__first.jpg" class="card-img">
-          <div class="blog-title">
-            <p>Blog</p>
-          </div>
-          <div class="card-content">
-            プログラミング学習の勉強方法を<br>特集。挫折しない方法とは？
-          </div>
-          <div class="tag-line">
-            <a class="tag-date"> 2021/01/01</a>
-            <a class="tag">#COACHTECH</a>
-          </div>
-        </section>
-        <section class="card">
-          <img src="img/blog__first.jpg" class="card-img">
-          <div class="card-content">
-            プログラミング学習の勉強方法を<br>特集。挫折しない方法とは？
-          </div>
-          <div class="tag-line">
-            <a class="tag-date"> 2021/01/01</a>
-            <a class="tag">#COACHTECH</a>
-          </div>
-        </section>
-        <section class="card">
-          <img src="img/blog__first.jpg" class="card-img">
-          <div class="card-content">
-            プログラミング学習の勉強方法を<br>特集。挫折しない方法とは？
-          </div>
-          <div class="tag-line">
-            <a class="tag-date"> 2021/01/01</a>
-            <a class="tag">#COACHTECH</a>
-          </div>
-        </section>
-      </div>
-      <div class="page">
-        <a class="page-content">一覧ページへ</a>
+      <div class="container">
+        <p class="blog-sub-title">Blog</p>
+        <h2 class="blog-title">ブログ</h2>
+        <div class="flex-item blog-wrap">
+          <a href="" class="blog-wrap-item">
+            <img src="img/blog__first.jpg" class="blog-wrap-img">
+            <span class="blog-wrap-blog">Blog</span>
+            <div class="blog-wrap-content">
+              <h3 class="blog-wrap-content-title">プログラミング学習の勉強方法を特集。挫折しない方法とは？</h3>
+              <ul class="flex-item">
+                <li class="blog-wrap-list">2021/01/01</li>
+                <li class="blog-wrap-list">#COACHTECH</li>
+              </ul>
+            </div>
+          </a>
+          <a href="" class="blog-wrap-item">
+            <img src="img/blog__first.jpg" class="blog-wrap-img">
+            <span class="blog-wrap-blog">Blog</span>
+            <div class="blog-wrap-content">
+              <h3 class="blog-wrap-content-title">プログラミング学習の勉強方法を特集。挫折しない方法とは？</h3>
+              <ul class="flex-item">
+                <li class="blog-wrap-list">2021/01/01</li>
+                <li class="blog-wrap-list">#COACHTECH</li>
+              </ul>
+            </div>
+          </a>
+          <a href="" class="blog-wrap-item">
+            <img src="img/blog__first.jpg" class="blog-wrap-img">
+            <span class="blog-wrap-blog">Blog</span>
+            <div class="blog-wrap-content">
+              <h3 class="blog-wrap-content-title">プログラミング学習の勉強方法を特集。挫折しない方法とは？</h3>
+              <ul class="flex-item">
+                <li class="blog-wrap-list">2021/01/01</li>
+                <li class="blog-wrap-list">#COACHTECH</li>
+              </ul>
+            </div>
+          </a>
+        </div>
+        <div class="page">
+          <a href="" class="page-content">一覧ページへ</a>
+        </div>
       </div>
     </div>
-    <div>
-      <a class="font-company">Company</a>
-    </div>
+
+
     <!--会社概要-->
     <div class="company-information">
-      <h2>会社概要</h2>
-      <dev class="company-table">
+      <div class="company-title">
+        <p class="font-company">Company</p>
+        <h2>会社概要</h2>
         <table class="table">
           <tr>
             <th>会社名</th>
@@ -231,7 +227,7 @@
           </tr>
 
         </table>
-      </dev>
+      </div>
     </div>
     <!--会社概要-->
     <div class="img-area">

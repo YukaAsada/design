@@ -4,13 +4,12 @@
   justify-content: space-between;
 }
 .font-item {
-  font-family: "Dancing Script", cursive;
-  font-family: "Gorditas", cursive;
-  font-family: "Noto Serif JP", serif;
+  font-family: "Indie Flower", cursive;
 }
-* {
+
+/** {
   outline: 1px solid red !important;
-}
+}*/
 
 img {
   width: 100%;
@@ -46,7 +45,8 @@ img {
 /*初期画面*/
 .view {
   width: 100%;
-  text-align: right;
+  height: 500px;
+  position: relative;
 }
 
 /*.interview-content {
@@ -55,8 +55,10 @@ img {
 }*/
 
 .view-img {
-  width: 700px;
-  text-align: right;
+  width: 70%;
+  height: 100%;
+  position: absolute;
+  right: 0;
 }
 
 .first-content {
@@ -68,9 +70,21 @@ img {
 }*/
 
 div.firstview-content {
+  margin: auto;
   position: absolute;
-  top: 40%;
-  left: 20%;
+  top: 20%;
+  left: 10%;
+}
+
+.firstview-content h1 {
+  margin: 60px auto;
+  font-size: 40px;
+  color: #b60f65;
+}
+
+.view-font {
+  font-weight: bold;
+  color: #b31566;
 }
 
 /*新着情報*/
@@ -107,10 +121,22 @@ div.firstview-content {
   width: 100%;
 }
 .information-nav {
+  width: 60% auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
+
+.information-nav::after {
+  content= "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  bottom: -10px;
+  left: 0;
+  background-color: #d1cdcd;
+} 
 
 .date {
   text-align: center;
@@ -119,10 +145,12 @@ div.firstview-content {
 .information-h2 {
   padding-top: 30px;
   padding-bottom: 10px;
+  color: rgb(82, 80, 80);
 }
+
 .news-btn {
   width: 10%;
-  height: 10px;
+  height: 15px;
   padding: 5px 10px;
   background-color: rgb(177, 12, 136);
   color: aliceblue;
@@ -173,6 +201,7 @@ div.firstview-content {
   font-size: 24px;
   font-weight: bold;
   position: relative;
+  color: rgb(77, 74, 74);
 }
 
 .about-item {
@@ -259,11 +288,6 @@ h2 {
   /*background-color: rgb(219, 219, 219);*/
 }
 
-.blog-title {
-  background-color: rgb(197, 12, 135);
-  position: absolute;
-}
-
 .font-blog {
   font-family: "Indie Flower", cursive;
   color: #e41a82;
@@ -271,10 +295,71 @@ h2 {
 
 .blog {
   background-color: #e4e0e0;
-  margin: 50px;
+  margin-top: 80px;
+  padding: 40px 0;
 }
+
+.blog-wrap {
+  margin-top: 30px;
+}
+
+.blog-wrap-item {
+  position: relative;
+  display: block;
+  width: 30%;
+  text-decoration: none;
+}
+
+.blog-wrap-img {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.blog-wrap-blog {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #b31566;
+  color: #ffffff;
+  border-radius: 15px 0 0 0;
+  padding: 5px 20px;
+}
+
+.blog-wrap-content {
+  background: #ffffff;
+  border-radius: 0 0 15px 15px;
+  padding: 20px;
+  margin-top: -5px;
+}
+
+.blog-wrap-content-title {
+  margin: 10px 0;
+  font-size: 18px;
+  color: rgb(99, 98, 98);
+  text-decoration: none;
+}
+
+.blog-wrap-list {
+  font-size: 14px;
+  margin-top: 30px;
+  list-style: none;
+}
+
 .blog-content {
   text-align: center;
+}
+
+.blog-sub-title {
+  font-size: 16px;
+  font-family: "Indie Flower", cursive;
+  color: #b31566;
+}
+
+.blog-title {
+  font-size: 20px;
+  font-weight: bold;
+  position: relative;
+  color: rgb(65, 63, 63);
+  margin-top: 15px;
 }
 
 .blog-detail {
@@ -329,6 +414,7 @@ h2 {
   padding-left: 20px;
   padding-right: 20px;
   border-color: rgb(231, 11, 202);
+  text-decoration: none;
 }
 
 /*サービス*/
@@ -340,7 +426,12 @@ h2 {
 .service-main {
   margin-top: 300px;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 100px auto;
+}
+
+.service-main h2 {
+  color: rgb(73, 70, 70);
+  margin-top: 15px;
 }
 
 .service-block {
@@ -413,6 +504,15 @@ h2 {
   color: #e41a82;
 }
 
+.company-title h2 {
+  color: rgb(66, 64, 64);
+  margin-top: 15px;
+}
+
+.company-table {
+  margin-left: 100px;
+}
+
 .company-table {
   margin: 0 auto;
   width: 800px;
@@ -420,10 +520,7 @@ h2 {
 }
 .company-information {
   width: 960px;
-  margin: 0 auto;
-}
-.company-information h2 {
-  margin: 0 auto;
+  margin: 60px auto;
 }
 
 .table {
@@ -439,6 +536,7 @@ table td {
   border: 1px solid #ccc;
   text-align: center;
   padding: 20px 100px;
+  float: none;
 }
 
 table th {
@@ -525,6 +623,7 @@ table th {
   position: relative;
   padding-bottom: 80px;
   font-size: 20px;
+  margin-top: 100px;
 }
 
 .portal-area::before {

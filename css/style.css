@@ -46,12 +46,13 @@ img {
 /*初期画面*/
 .view {
   width: 100%;
+  text-align: right;
 }
 
-.recruite-content {
-  background-image: url("../img/firstview.jpg");
-  background: right;
-}
+/*.interview-content {
+  background-image: url("../img/interview.png");
+  display: flex;
+}*/
 
 .view-img {
   width: 700px;
@@ -419,9 +420,7 @@ h2 {
 }
 .company-information {
   width: 960px;
-  margin: 50px 100px;
-  margin: 50 auto;
-  align-items: center;
+  margin: 0 auto;
 }
 .company-information h2 {
   margin: 0 auto;
@@ -431,11 +430,15 @@ h2 {
   border-collapse: collapse;
   border-color: darkgray;
   width: 70%;
+  padding: 100px 100px;
+  margin: 0 auto;
 }
 
 table th,
 table td {
   border: 1px solid #ccc;
+  text-align: center;
+  padding: 20px 100px;
 }
 
 table th {
@@ -445,39 +448,54 @@ table th {
 .img-area {
   display: flex;
   margin-top: 100px;
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
 }
 .recruit {
   position: relative;
 }
 .recruit-information {
-  position: absolute;
+  width: 50%;
+  background-image: url(../img/recruit.png);
+  text-align: center;
+  color: #ffffff;
+  /*position: absolute;
   top: 40%;
   left: 40%;
   color: aliceblue;
   font-size: large;
-  font-weight: bold;
+  font-weight: bold;*/
+}
+
+.recruit-information p {
+  margin: 150px auto;
 }
 
 .recruit-img {
   width: 100%;
 }
 
-.interview {
+/*.interview {
   position: relative;
-}
-.interview-content {
-  background-image: url("../img/firstview.jpg");
-  background: right;
-  position: absolute;
-  top: 40%;
-  left: 40%;
+}*/
+/*.interview-content {
+  background-image: url("../img/interview.png");
+  width: 50%;
+  display: flex;
+  float: right;
   color: aliceblue;
-  font-size: large;
-  font-weight: bold;
-  background-image: url("../img/firstview.jpg");
+}*/
+
+.interview-content {
+  width: 50%;
+  display: flex;
+  background-image: url(../img/interview.png);
+  text-align: center;
+  color: #ffffff;
 }
 
+.interview-content p {
+  margin: 150px auto;
+}
 
 .portal-detail {
   text-align: center;

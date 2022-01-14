@@ -121,7 +121,34 @@ div.firstview-content {
 .information {
   text-align: center;
   width: 100%;
+  position: relative;
 }
+
+.information::before {
+  content: "";
+  border: double;
+  align-items: center;
+  margin: -20px 350px;
+  position: absolute;
+  display: block;
+  width: 700px;
+  height: 1px;
+
+  color: #d1cdcd;
+}
+
+.information:after {
+  border: double;
+  content: "";
+  align-items: center;
+  margin: 30px 350px;
+  position: absolute;
+  display: block;
+  width: 700px;
+  height: 1px;
+  color: #d1cdcd;
+}
+
 .information-nav {
   width: 60% auto;
   display: flex;
@@ -156,7 +183,7 @@ div.firstview-content {
 }
 .information-h2 {
   padding-top: 30px;
-  padding-bottom: 10px;
+  padding-bottom: 60px;
   color: rgb(82, 80, 80);
 }
 

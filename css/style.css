@@ -148,15 +148,18 @@ div.firstview-content {
 }
 
 .information-nav {
-  width: 100%;
+  width: 60%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 10px auto;
   color: rgb(65, 63, 63);
+  border-bottom: solid;
+  border-color: rgb(223, 219, 219);
+  border-width: 2px;
 }
 
-.information-nav::after {
+/*.information-nav::after {
   content: "";
   align-items: center;
   margin: 10px 350px;
@@ -166,11 +169,7 @@ div.firstview-content {
   bottom: -10px;
   left: 0;
   background-color: #d1cdcd;
-}
-
-.information-nav li {
-  margin: 10px auto;
-}
+}*/
 
 .date {
   text-align: center;

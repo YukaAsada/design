@@ -48,7 +48,7 @@ img {
 .view {
   width: 100%;
   height: 500px;
-  position: relative;
+  margin-right: 0 0 0 auto;
 }
 
 /*.interview-content {
@@ -59,8 +59,7 @@ img {
 .view-img {
   width: 70%;
   height: 100%;
-  position: absolute;
-  right: 0;
+  text-align: right;
 }
 
 .first-content {
@@ -538,11 +537,15 @@ h2 {
 .font-company {
   font-family: "Indie Flower", cursive;
   color: #bb196c;
+  margin-left: 15%;
+  margin-bottom: 15px;
 }
 
 .company-title h2 {
   color: rgb(92, 90, 90);
   margin-top: 15px;
+  margin-left: 15%;
+  margin-bottom: 15px;
 }
 
 .company-table {
